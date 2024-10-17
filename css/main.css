@@ -1109,7 +1109,7 @@ header .logo {
 	margin-top: 25px;
 	position: relative;
 }
-header .logo a {
+/*header .logo a {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1121,6 +1121,19 @@ header .logo a {
 	height: 15px;
 	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
+}*/
+header .logo a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    width: 245.40px; /* Largura do seu SVG */
+    height: 100px; /* Altura do seu SVG */
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ1LjQwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDI0NS40MCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRleHQgeD0iMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJCYW5jYSIgZm9udC1zaXplPSI1MCIgZmlsbD0iYmxhY2siPkNhcmxvcyBDb3N0YTwvdGV4dD48L3N2Zz4=") no-repeat center;
+    background-size: 245.40px 100px;
 }
 
 /**
